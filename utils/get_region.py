@@ -4,6 +4,10 @@ class Region():
         #self.region = region
         pass   
     
+    def set_region(self,region):
+        reg_path = '"'+'https://s3-us-west-2.amazonaws.com/usgs-lidar-public/' + region + '/ept.json'+'"'
+        
+        return reg_path
     def check_region_exists(self,region):
         flag = 0 
         try:

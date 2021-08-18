@@ -9,9 +9,6 @@ class Bounds():
         max_y = str(max_y)
         
         bounds = '"' + '(' + '[' + min_x + ',' + max_x + ']' + ',' + '['+ min_y +','+ max_y + ']'+ ')'+'"'
-
-        x_list = [min_x,max_x]
-        y_list = [min_y,max_y]
         
         return bounds
     

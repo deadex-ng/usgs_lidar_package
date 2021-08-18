@@ -16,12 +16,16 @@ region = Region()
 bounds = Bounds()
 
 boundaries = bounds.set_bounds(-93.756155, 41.918015, -93.747334, 41.921429)
+region_url = region.set_region('IA_FullState')
 
 
 #read json file 
 json_file = open('../pipeline.json')
 data = json.load(json_file)
+
+#edit json file 
 data['pipeline'][0]['bounds']=boundaries
+data['pipeline'][0]['filename']=region_url
 
 with open('../pipeline.json', 'w') as f:
     f.write(json.dumps(data))
