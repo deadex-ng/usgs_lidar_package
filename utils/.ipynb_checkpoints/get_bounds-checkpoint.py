@@ -8,7 +8,7 @@ class Bounds():
         min_y = str(min_y)
         max_y = str(max_y)
         
-        bounds = '"' + '(' + '[' + min_x + ',' + max_x + ']' + ',' + '['+ min_y +','+ max_y + ']'+ ')'+'"'
+        bounds =  '(' + '[' + min_x + ',' + max_x + ']' + ',' + '['+ min_y +','+ max_y + ']'+ ')'
         
         return bounds
     
