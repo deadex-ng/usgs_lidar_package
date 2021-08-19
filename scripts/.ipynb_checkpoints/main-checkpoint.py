@@ -36,8 +36,8 @@ data = json.load(json_file)
 #edit json file 
 data['pipeline'][0]['bounds']=boundaries
 data['pipeline'][0]['filename']=region_url
-data['pipeline'][5]['filename']=output_file[0]
-data['pipeline'][6]['filename']=output_file[1]
+data['pipeline'][6]['filename']=output_file[0]
+data['pipeline'][7]['filename']=output_file[1]
 with open('../pipeline.json', 'w') as f:
     f.write(json.dumps(data))
 
