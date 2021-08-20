@@ -24,7 +24,7 @@ will interface with [USGS 3DEP](https://www.usgs.gov/core-science-systems/ngp/3d
 I work at an AgriTech, which has a mix of domain experts, data scientists, data engineers. As part of the data engineering team, I have been tasked to produce an easy to use, reliable and well designed python module that domain experts and data scientists can use to fetch, visualise, and transform publicly available satellite and LIDAR data. In particular,the code will interface with USGS 3DEP and fetch data using their API. 
 
 ## Notebooks
-- `vizualization.ipynb` : Notebook file showing **extracted data from las file**, **Geopandas dataframe with extracted data**, **Height Scatter Plot**, **IDF Function**, **Interpolation Points** and **3D render of the Terrain**
+- `vizualization.ipynb` : Notebook file showing **extracted data from las file**, **Geopandas dataframe with extracted data**, **Height Scatter Plot**, **IDW Function**, **Interpolation Points** and **3D render of the Terrain**
 - `get_data.ipynb`: Notebook file showing how to get 3DEP data using py3dep and visualizing the data using mtplotlib.
 
 ## Scripts 
