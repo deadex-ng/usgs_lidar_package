@@ -12,10 +12,12 @@ sys.path.append('../utils')
 from get_region import Region
 from get_bounds import Bounds
 from file_handler import FileHandler
+from pipeline import PDALPipeline
 
 region = Region()
 bounds = Bounds()
 file_handler_obj = FileHandler()
+PDALPipeline = PDALPipeline()
 
 
 boundaries = bounds.set_bounds(-93.756155, 41.918015, -93.747334, 41.921429)
@@ -42,5 +44,5 @@ with open('../pipeline.json', 'w') as f:
     f.write(json.dumps(data))
 
 
-    
-#os.popen("pdal pipeline ../pipeline.json")
+pipeline_path = '../pipeline.json'
+PDALPipeline.run_pipeline(pipeline_path)
