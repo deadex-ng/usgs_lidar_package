@@ -29,5 +29,5 @@ class Bounds():
     def check_bounds_range():
         pass 
 
-obj = Bounds()
-print(obj.set_bounds(-93.756155,41.918015,-93.747334,41.921429))
+#obj = Bounds()
+#print(obj.set_bounds(-93.756155,41.918015,-93.747334,41.921429))
