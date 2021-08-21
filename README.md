@@ -25,6 +25,7 @@ I work at an AgriTech, which has a mix of domain experts, data scientists, data 
 
 ## Notebooks
 - `vizualization.ipynb` : Notebook file showing **extracted data from las file**, **Geopandas dataframe with extracted data**, **Height Scatter Plot**, **IDW Function**, **Interpolation Points** and **3D render of the Terrain**
+- `visualizeTif.ipynb`: Notebook file showing a visual map of a tif file.
 - `get_data.ipynb`: Notebook file showing how to get 3DEP data using py3dep and visualizing the data using mtplotlib.
 
 ## Scripts 
